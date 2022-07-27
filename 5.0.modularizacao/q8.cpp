@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int sParcelas(int n)
+int s-Parcelas(int n)
 {
 	
 }
@@ -10,7 +10,7 @@ int main()
 {
 	int n;
 	cin >> n;
-	cout << sParcelas(n);
+	cout << s-Parcelas(n);
 	return 0;
 }
 
