@@ -3,13 +3,19 @@ using namespace std;
 
 int main()
 {   
-    int dividendo, divisor, q = 0, r = 0;
-    cin >> dividendo >> divisor; 
-    while(dividendo >= divisor)
-    {
-        dividendo -= divisor;
-        q++;
+    int D, d, q = 0, a;
+    cin >> D >> d; 
+    if(d > D)
+    { 
+        a = D;
+        D = d;
+        d = a;
     }
-    cout << dividendo << endl << q;
+    while(D >= d)
+    {
+        D -= d;
+        q++;
+    }   
+    cout << D << endl << q;
     return 0;
 }
