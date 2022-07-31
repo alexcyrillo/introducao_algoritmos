@@ -13,6 +13,10 @@ int main()
 {
     int num, maior = 0;
     char conf = 'S';
+    cin >> num;
+    maior = num;
+    maior = valorMaior(num, maior);
+    cin >> conf;
     while(conf == 'S')
     {
         cin >> num;
