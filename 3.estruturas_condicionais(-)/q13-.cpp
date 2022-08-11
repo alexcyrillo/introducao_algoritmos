@@ -1,3 +1,4 @@
+//corte_faro
 #include <iostream>
 using namespace std;
 
