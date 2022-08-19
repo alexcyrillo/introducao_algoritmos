@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()f
+int main()
 {
     char vetor_a[10], vetor_b[10], alt;
     for(int i = 0; i < 10; i++)

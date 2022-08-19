@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int verificarValidade(int vetor[], int qt_elementos)f
+int verificarValidade(int vetor[], int qt_elementos)
 {
     int qt_final = qt_elementos;
     for(int i = 0; i < qt_elementos; i++)

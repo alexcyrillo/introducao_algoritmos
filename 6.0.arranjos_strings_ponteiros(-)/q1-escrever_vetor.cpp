@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void imprimeVetor(int nros[], int nrosLidos)f
+void imprimeVetor(int nros[], int nrosLidos)
 {
     if(nrosLidos == 0)
         cout << "[]";
