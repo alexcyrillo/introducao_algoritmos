@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
 
 int main()
@@ -10,18 +9,16 @@ int main()
     for(int i = 0; i < n_palavras; i++)
     {
         cin >> palavras[i];
-        if(sizeof(palavras[i]) > tamanho)
-            tamanho = sizeof(palavras[i]);
+        if(palavras[i].size() > tamanho)
+            tamanho = palavras[i].size();
     }
     for(int i = 0; i < n_palavras; i++)
     {
-        cout << sizeof(palavras[i]);
-        if(sizeof(palavras[i]) < tamanho)
+        if(palavras[i].size() < tamanho)
         {
-            while(sizeof(palavras[i]) < tamanho)
+            while(palavras[i].size() < tamanho)
             {
-                palavras[i] = '*' + palavras[i];
-                cout << "teste" ;
+                palavras[i] = "*" + palavras[i];
             }
         }
         cout << palavras[i] << endl;
