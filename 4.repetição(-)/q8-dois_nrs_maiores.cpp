@@ -1,3 +1,18 @@
+/*Faça um algoritmo que leia 7 números reais. Após isso, imprima o maior valor e o segundo maior valor. Imprima também a média dos valores desconsiderando o maior e o segundo maior.
+
+Exemplo de entrada:
+13
+2
+5
+6
+4
+3
+12
+
+Exemplo de saída:
+13
+12
+4*/
 #include <iostream>
 using namespace std;
 

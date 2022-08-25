@@ -1,3 +1,31 @@
+/*
+Um banco concederá um crédito especial aos seus clientes, de acordo com o saldo médio no último ano. Faça um programa que receba o saldo médio de um cliente e calcule o valor do crédito, de acordo com a tabela a seguir.
+
+Saldo médio	Tipo do intervalo	Crédito
+Até zero	⊷	zero
+de R$0,00 a R$200,00	⊷	10% do saldo médido
+de R$200,00 a R$400,00	⊷	15% do saldo médido
+de R$400,00 a R$800,00	⊷	20% do saldo médido
+de R$800,00 a R$1600,00	⊷	25% do saldo médido
+acima de R$1600,00	⊷	30% do saldo médido
+Escreva o saldo médio e o valor do crédito.
+
+Exemplo de entrada:
+
+421.58
+Exemplo de saída:
+
+421.58
+84.32
+Exemplo de Entrada:
+
+265.85
+Exemplo de Saída:
+
+265.85
+39.88
+*/
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,27 @@
+/*Escreva um programa que tem uma função que receba um número inteiro e retorne o mês correspondente ao número. Por exemplo, 2 corresponde à "fevereiro". A função deve retornar a string "erro" caso o número recebido não faça sentido. O módulo principal deve chamar a função que resolve o nome do mês e escrever a string retornada.
+
+Os nomes dos meses e a string especial de erro devem usar somente letras minúsculas, sem acentuação nem caracteres especiais.
+
+Obs: soluções em Python devem possuir um subprograma chamado principal.
+
+Entradas:
+
+Numero inteiro que supostamente representa um mês do ano.
+Saídas:
+
+O nome do mês retornado pela função, ou a mensagem de erro.
+Exemplo de entrada 1:
+
+3
+Exemplo de saída 1:
+
+marco
+Exemplo de entrada 2:
+
+15
+Exemplo de saída 2:
+
+erro*/
 #include <iostream>
 using namespace std;
 

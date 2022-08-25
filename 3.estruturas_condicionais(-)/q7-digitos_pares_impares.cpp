@@ -1,3 +1,35 @@
+/*
+Dado um número inteiro N de 5 dígitos (10000 <= N <= 99999), faça um programa para descobrir a quantidade de dígitos pares e ímpares existentes em N.
+
+Entradas:
+
+Um número inteiro N de 5 dígitos.
+Saídas:
+
+Um número inteiro que indica a quantidade de dígitos pares existente em N.
+Um número inteiro que indica a quantidade de dígitos ímpares existente em N.
+Exemplo de Entrada:
+
+10379
+Exemplo de Saída:
+
+1
+4
+Exemplo de Entrada:
+
+13579
+Exemplo de Saída:
+
+0
+5
+Exemplo de Entrada:
+
+24680
+Exemplo de Saída:
+
+5
+0
+*/
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,11 @@
+/*Crie um programa que receba como entrada uma sequência de caracteres "a" e "b". A sequência deve ter o tamanho de 10 caracteres. Seu programa deverá retornar 1 se o número de caracteres "a" for menor que o total de caracteres "b", ou retornar 0 caso não ocorra a condição.
+
+Entrada:
+
+a b b b a a b b b a
+Saída:
+
+1*/
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,19 @@
+/*Faça um programa que leia da entrada padrão um número inteiro positivo (de até 10 dígitos) e troque seu primeiro dígito com o último.
+
+Apesar de ser possível resolver este problema sem repetição, é obrigatório o uso de repetição na solução entregue.
+
+Entradas:
+
+Um número inteiro positivo.
+Saídas:
+
+Número inteiro com o primeiro e o último dígitos trocados.
+Exemplo de Entrada:
+
+5091
+Exemplo de Saída:
+
+1095*/
 #include <iostream>
 using namespace std;
 

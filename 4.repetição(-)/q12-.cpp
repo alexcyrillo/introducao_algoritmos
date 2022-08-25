@@ -1,4 +1,22 @@
 //calculo_pi
+/*É possível calcular o valor de pi, utilizando a seguinte série:
+
+raiz(2)/2 + raiz(2 + raiz(2))/2 + raiz(2 + raiz(2 + raiz(2)))/2 ... = 2/pi
+
+Sabendo dessas informações, faça um programa que efetue o cálculo aproximado de pi, recebendo um número que indica a quantidade de termos da sequência. Deve-se usar o tipo ponto flutuante de precisão dupla (double) para contas mais precisas.
+
+Entradas:
+
+Um inteiro que indica o número de termos utilizados na sequência. Quanto maior esse número mais preciso será o resultado.
+Saídas:
+
+Valor aproximado de pi, conforme cálculo do produtório.
+Exemplo de entrada:
+
+9
+Exemplo de saída:
+
+3.14159*/
 #include <iostream>
 #include <cmath>
 using namespace std;
