@@ -48,6 +48,5 @@ int main()
     {
         cin >> paciente[i].nome >> paciente[i].sexo >> paciente[i].altura >> paciente[i].peso;
     }
-    
     return 0;
 }
