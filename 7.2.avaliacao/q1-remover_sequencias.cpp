@@ -18,53 +18,28 @@ Exemplo de saída:
 abacaxi
 */
 #include <iostream>
-#include <cstring>
 using namespace std;
 
 int main()
 {
     int x;
-    string palavra = "\0";
-    bool teste;
+    string palavra;
     cin >> palavra;
     x = palavra.size();
-    for(int i = 1; i < x; i++)
+    for(int i = 0; i < x; i++)
     {
-        if(palavra[i] == palavra[i - 1])
-            teste = 1;
-        else
-            teste = 0;
-        while(teste)
+        if(palavra[i] == palavra[i + 1])
         {
-            for(int j = i; j < x; j++)
-            {
-                palavra[j] = palavra[j - 1];
-                palavra[x] = '\0';
-            }
-            if(palavra[i] == palavra[i - 1])
-                teste = 1;
-            else
-                teste = 0;
+            palavra[i] = 0;
         }
     }
-    cout << palavra;
+    for(int i = 0; i < x; i++)
+    {
+        if(palavra[i] != 0)
+        {
+            cout << palavra[i];
+        }
+    }
+    
     return 0;
 }
-
-
-
-    /*int x, i = 0;
-    string palavra, final = "\0";
-    cin >> palavra;
-    x = palavra.size();
-    while(i < x)
-    {
-        if(palavra[i] != palavra[i + 1])
-        {
-            final += palavra[i];
-        }
-        i++;
-    }
-    cout << final;
-    return 0;
-}*/
